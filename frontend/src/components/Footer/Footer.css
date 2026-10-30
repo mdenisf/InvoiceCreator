@@ -1,0 +1,7 @@
+.invoice-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    border-top: 1px solid #bbb;
+    padding-top: 0.5rem;
+}
