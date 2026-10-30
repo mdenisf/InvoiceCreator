@@ -1,0 +1,15 @@
+.app {
+  width: min(100% - 3rem, 64rem);
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.app h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.1;
+}
+
+.app p {
+  color: #526077;
+}
