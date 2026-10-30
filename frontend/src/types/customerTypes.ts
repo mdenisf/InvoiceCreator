@@ -1,7 +1,8 @@
 import type { Address } from "./addressType";
 
 export type CustomerDetails = {
-    name: string;
+    name?: string;
+    companyName?:string
     address: Address;
     contactPerson?: string;
 };
