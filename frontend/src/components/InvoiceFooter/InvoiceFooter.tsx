@@ -1,13 +1,13 @@
 import type { IssuerDetails } from "../../types/issuerTypes";
 import { FooterCard } from "../FooterCard/FooterCard";
 
-import "./Footer.css";
+import "./InvoiceFooter.css";
 
 type footerDetails = {
     issuer: IssuerDetails;
 };
 
-export const Footer = ({ issuer }: footerDetails) => {
+export const InvoiceFooter = ({ issuer }: footerDetails) => {
     let contactInformation;
     if (issuer.contactInformation.phoneNumber !== undefined)
         contactInformation = [
